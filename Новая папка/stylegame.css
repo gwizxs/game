@@ -1,0 +1,173 @@
+@media screen and (max-width: 650px) {
+#card {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 120px;
+    padding: 15px;
+    background-color: #d8aff0;
+    font-size: 0px;
+    color: transparent;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color .3s;
+}
+#game {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+    padding: 20px 7.5px;
+    max-width: 400px;
+    margin: 0 auto;
+}
+#img {
+    max-width: 50%;
+}
+
+#card:hover {
+    background-color: #945fc5;
+    border-style: solid;
+    border-width: 1.5px;
+    border-color: #532e62;
+    
+    
+}
+
+#card:active {
+    background-color: #5b3978;
+   
+}
+
+#open {
+    font-size: 18px;
+    color: rgb(244, 228, 209);
+    background-color: #431f44;
+    cursor: default;
+    border-style: solid;
+    border-width: 1.5px;
+    border-color: #532e62;
+    
+}
+
+#open:hover {
+    background-color: #431f44;
+    
+
+}
+
+#open:active {
+    background-color: #431f44;
+
+}
+
+#success {
+    font-size: 18px;
+    color: bisque;
+    background-color: #4ea182;
+    cursor: default;
+}
+
+#success:hover {
+    background-color: #4ea182;
+
+}
+
+#success:active {
+    background-color: #4ea182;
+
+}
+
+
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+img {
+    max-width: 100%;
+}
+
+body {
+    font-family: Arial, Verdana, sans-serif;
+    background-color: #292929;
+}
+
+.game {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    padding: 40px 15px;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+
+.card {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 240px;
+    padding: 30px;
+    background-color: #d8aff0;
+    font-size: 0px;
+    color: transparent;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color .3s;
+}
+
+.card:hover {
+    background-color: #945fc5;
+    border-style: solid;
+    border-width: 3px;
+    border-color: #532e62;
+    
+    
+}
+
+.card:active {
+    background-color: #5b3978;
+   
+}
+
+.open {
+    font-size: 36px;
+    color: rgb(244, 228, 209);
+    background-color: #431f44;
+    cursor: default;
+    border-style: solid;
+    border-width: 3px;
+    border-color: #532e62;
+    
+}
+
+.open:hover {
+    background-color: #431f44;
+    
+
+}
+
+.open:active {
+    background-color: #431f44;
+
+}
+
+.success {
+    font-size: 36px;
+    color: bisque;
+    background-color: #4ea182;
+    cursor: default;
+}
+
+.success:hover {
+    background-color: #4ea182;
+
+}
+
+.success:active {
+    background-color: #4ea182;
+
+}
+
